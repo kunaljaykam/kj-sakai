@@ -1,0 +1,311 @@
+
+# Error msg
+group.user.multiple.error  = At least one user is in more than one group.  Please see below.
+group.error.title          = User in multiple groups!
+group.error.message        = You or one of your group members are members of more than one group eligible to submit to this assignment.  Please inform your instructor that you will not be able to submit or view feedback until this error is resolved.
+group.user.duplicate.error = ERROR: This user is in more than one eligible group!
+review.report.error.expand=Expand troubleshooting information
+review.report.error.collapse=Collapse troubleshooting information
+review.exclude.matches.value_error=A value from 0-100 is required when excluding small matches for Turnitin.
+failed.diskio=The file upload process is not finished due to server disk i/o error.
+content_review.disclosure.error=Error
+content_review.error.SUBMISSION_ERROR_RETRY_CODE = An error occurred submitting this item to the originality checking service. The system will automatically try to re-submit this item.
+content_review.error.SUBMISSION_ERROR_NO_RETRY_CODE = An error occurred while submitting this item to the originality checking service.
+content_review.error.SUBMISSION_ERROR_USER_DETAILS_CODE = An error occurred while submitting this item to the originality checking service. The user details are incomplete or invalid.
+content_review.error.REPORT_ERROR_RETRY_CODE = An error occurred while retrieving the originality report for this submission. The system will automatically try to re-retrieve the report.
+content_review.error.REPORT_ERROR_NO_RETRY_CODE = An error occurred while retrieving the originality report for this submission. The report cannot be retrieved.
+content_review.error.SUBMISSION_ERROR_RETRY_EXCEEDED_CODE = All attempts to submit this item for originality review have failed. Limit on submission attempts reached.
+content_review.errorFromSource = Troubleshooting information: {0}content_review.error = An unknown error occurred. The originality report for this submission is not available.
+content_review.error.createAssignment=An error with {0} has occurred while creating this assignment. {1} has saved the assignment in draft mode. Please try posting this assignment again later. {2}
+sendFeedback.error = Error returning feedback to {0} students. 
+peerassessment.alert.saveerrorunkown=An error has occurred while saving, please refresh and try again.
+settings.access.checkError=The following students are members of multiple selected groups:
+ts.modal.msg.err=Format error in time spent field
+settings.access.checkFailure=Check failed, no response from server.
+settings.access.noMembersInCommon=Group assignments require that the selected groups don't have any participants in common.
+assignment.inaccessible = This assignment is inaccessible to students because it is released to a group that no longer exists. Edit the assignment and change the 'Assign To' settings to resolve this issue.
+settings.access.noGroupsPresent = Note - There are currently no groups present in this site. Create groups in Site Info to enable additional options.
+settings.access.selectedGroupsGoneNoGroups = Note - The previously selected groups no longer exist. "{0}" has been selected as the "Assign To" option for this assignment. You may post this as an individual assignment for the entire site, or cancel and create new groups.
+settings.access.selectedGroupsGoneOtherGroupsPresent = Note - The previously selected groups no longer exist. "{0}" has been selected as the "Assign To" option for this assignment. You may post this as an individual assignment for the entire site, or change the group selections.
+plagiarismFileSize=<li>Maximum upload limit: {0}Mb per file.</li>
+content_review.error.createAssignment=An error with {0} has occurred while creating this assignment. {1} has saved the assignment in draft mode. Please try posting this assignment again later. {2}
+external.tool.launched=External Tool has launched, please refresh page to re-launch
+external.tool.expired=Launch has expired, please refresh page
+external.tool.notavail=This assignment is not available
+external.tool.missing=The external tool is not configured, check with your instructor
+noti.archive.empty=Archive is empty or encrypted.
+review.file.not.accepted=The file you have tried to upload is not accepted by {0}. Please upload a file that is one of the following types: {1}
+review.switch.ne.1 = {0} is not available for non-electronic submissions.
+review.switch.ne.2 = {0} is not available for non-electronic submissions. "Use Turnitin" has been deselected below.
+uploadall.alert.choose.element=You must choose at least one element in the archive file to upload.
+uploadall.alert.wrongZipFormat=ZIP file is not in correct format. Please ensure that ZIP file contains student folders or grades.csv file at the root level.
+uploadall.alert.incorrectFormat=ZIP file is not in correct format.
+uploadall.alert.invalidUserId=Please ensure that user id's correctly match those in the site and the folders are in the top level of the zip (not nested).
+uploadall.alert.noGradeFile=Please ensure there is a grade file and correct folder structure.
+uploadall.alert.nocsv=CSV grades file format was selected, but no grades.csv file was found at the root level.
+uploadall.alert.noexcel=Excel grades file format was selected, but no grades.xls file was found at the root level.
+group.must.member    = You must be a member of at least one group to submit!
+attempty = Can not submit empty attachments: ''{0}''.
+
+cannotfin1 = Can not add the due date to calendar.
+
+cannotfin_assignment = Can not find the assignment ''{0}''.
+
+cannotfin_assignmentContent = Can not find the assignment content ''{0}''.
+
+cannotfin3 = Can not find the assignment.
+
+cannotfin4 = Can not find the assignment content.
+
+cannotfin5 = Can not find the assignment submission.
+cannotfin_site = Can not find site with id = ''{0}''.
+cannotfin_submission = Can not find the assignment submission with id = ''{0}''.
+cannotfin_submission_1 = Can not find the assignment submission for assignment reference =''{0}'' and user id=''{1}''.
+
+cannotfin6 = Can not find the calendar event ''{0}''.
+
+cannot_getEvents = Can not read events for calendar ''{0}''.
+
+cannotmak = Can not make an announcement for the assignment open date.
+
+cannotrem = Can not remove the old event for assignment ''{0}''.
+
+
+
+
+
+
+
+
+
+# Warning msg
+ts.add.err.userId=You need to be logged in to add time sheet entry
+ts.add.err.assignmentId=You need to supply the assignmentId and ref
+ts.add.err.startTime=You must set a start time
+ts.add.err.comment=You need to fill the comment field
+ts.add.err.duration=The format of the estimated time of the task is not correct. This must be XXh YYm.
+ts.add.err.permission=You can't modify this sumbitter
+ts.add.err.submitter=You submitter does not exist.
+ts.rem.err.userId=You need to be logged in to add time sheet entry
+ts.rem.err.empty=Selected time sheet must be provided
+ts.rem.err.submitterId=You need to supply the submissionId and ref
+ts.rem.err.permission=You can't modify this sumbitter
+ts.msg.no.timesheet.record=There are no timesheet records.
+gen.notimeimputted=There's no imputted time in
+gen.noestimate=Without record
+timeempty=Please specify the estimated duration of the assigment.
+timeformat=The format of the estimated time of the task is not correct. This must be XXh YYm.
+stuviewsubm.video = Use the video recorder to make your assignment submission. Press 'Start Recording' and please do not forget to stop the recording pressing 'Stop Recording'. If you press 'Start Recording' again the existing recording will be lost. This recorder will not record more than 2:30 minutes for performance reasons.
+email.reminder.subject=Assignment ''{0}'' Due on {1}
+email.reminder.duewithin=Reminder: An assignment is due within {0}
+submissionConfirmAlert=If you are ready to submit the completed assignment, click "Submit". Otherwise, click "Edit" and you will then be able to make any changes or save it as a draft.
+submissionConfirmMessage=You are about to submit this assignment for grading. Please check that the following items have been completed before submitting.
+dont.associate.label=Do not use a rubric to grade this assignment
+asn.edit.selectone = You must select at least one group
+submission.inline=Inline Submission
+grade.type.unknown=Unknown Grade Type
+submission.type.unknown=Unknown Submission Type
+peerassessment.peerGradeInfo=You are able to accept or override the averaged peer review grade in this section.  Once this grade is released, this is the grade that will appear in the gradebook.
+stuviewsubm.peerreview=Once submitted, this assignment will be part of a peer review.
+stuviewsubm.peerreviewanon=Once submitted, this assignment will be part of an anonymous peer review. Make sure not to include your name in any submission text, files or file names.
+peerassessment.submissionReq=Assignment submission required
+peerassessment.cantgradewithdate=Instructor grading is disabled until after the review period: {0}
+peerassessment.invliadGroupAssignment=Peer assessments are not available for group assignments.
+peerassessment.reviewerNoAttachments=No attachments were submitted by the reviewer.
+peerassessment.alert.saveinvalidscore=You must enter a valid number greater than 0 for the score.
+peerassessment.alert.savenoscorecomment=You must enter a grade or a comment in order to submit your peer assessment.
+peerassessment.specifyNumReview=Please enter a value for the number of submissions a student must review for peer assessment.
+peerassessment.invalidNumReview=You must enter a valid number greater than 0 for the number of submissions a student must review for peer assessment.
+peerassessment.invliadPeriodTime=You must enter a peer review period date that is at least 10 minutes after the accept until date.
+peerassessment.warn.nogroup=(Peer assessment cannot be used with group assignments. To enable this option, switch to one of the individual assignment options in the "Assign To" section.)
+peerAssessmentSavedGrading=Comments and/or grade have been saved but not submitted. If you don't submit your review before the due date, it will be submitted for you.
+sendFeedback.returned = Feedback has been returned to selected students. (NOTE: If you wish to publish grades, you will need to use 'Release grades'.)
+content_review.note=<div><br /><em>NOTE:</em><ul><li>When submitting attachments, students should only use these file types: {0}.</li><li>Students should always save files with the appropriate extension.</li>{1}</ul></div>
+same_assignment_title=Assignment with the same title ''{0}'' exists in the site. Please use a different title.
+youarenot_options = You are not allowed to edit Assignment tool options.
+not_allowed_to_grade_submission=You are not allowed to grade submission {0}.
+external.tool.detail=<b>Note:</b> When you create an assignment that launches an external tool, not all of the assignment features are available.  Unsupported features are hidden when you select this assignment type.
+allPurpose.alert.title=Please enter title for the All Purpose item.
+allPurpose.alert.text=Please enter information text for the All Purpose item.
+allPurpose.alert.access=Please choose access list for the All Purpose item.
+allPurpose.alert.release.afer.retract=The show start date of all purpose item cannot be set after the show until date.
+modelAnswer.alert.modelAnswer=Please provide model answer text.
+modelAnswer.alert.showto=Please choose proper time for showing model answer to students.
+review.required=Please enter required information for the {0} Plagiarism Service settings.
+review.exclude.quoted=Exclude quoted materials from Similarity Index for all papers in this assignment
+review.exclude.quoted.help=Set the default for all reports submitted to this assignment. To reduce the number of false matches, we recommend excluding quotes by default. You will still retain the ability to toggle this option for each individual report after submission.
+review.exclude.self.plag=Exclude self plagiarism within course
+review.exclude.self.plag.help=Set the default for all reports submitted to this assignment. To reduce the number of false matches, we recommend excluding self plagiarism in the same course by default. You will still retain the ability to toggle this option for each individual report after submission. Self plagiarism will always be checked against the user's reports in other courses.
+review.store.inst.index=Store paper in institutional index
+review.store.inst.index.help=Set the default for all reports submitted to this assignment. If you choose not to store reports in your institutional index, the reports will not be used to check for plagiarism against other student reports in your institution. Once a report has been submitted, you cannot change this option for that report.
+review.studentPreview=Enable Student Preview
+review.studentPreview.help=If you choose to enable student preview, users will be able to review and re-submit their papers until the due date. Instructors will only be able to see the final submission but a record of the scores for each paper will show in the report logs. If the assignment has a due date, the student's most recent draft will automatically be submitted if there are no submissions from a student. It is recommended that you set a due date for this assignment and allow the students to view their reports.
+review.exclude.smallMatches=Exclude small matches
+downloadall.alert.choose.element=You must choose at lease one element in the download options.
+uploadall.alert.zipFile=You have not selected a zip archive file. You must select either a .zip or a .sit archive file as the upload file.
+uploadall.note=NOTICE: If you switch between languages in your preferences, for example English to Spanish, you will need to upload this archive in the same language as it was downloaded (or re-download and use a new archive).
+downloadall.note=NOTICE: If you switch between languages in your preferences, for example English to Spanish, you will need to upload this archive in the same language as it was downloaded (or re-download and use a new archive).
+uploadall.choose.file.feedbackComments=Feedback comments (comments.txt file if available in student's folder. Comments are put into the Instructor Comments field for each student's submission)
+uploadall.choose.file.includeNotSubmitted=Include students who have not yet submitted
+uploadall.choose.file.confirm = You have selected the archive file for uploading. Files contained in the archive will be uploaded to the corresponding student submission for the assignment.
+receive.confirm.submission.email.none=Do not send notification emails for any student submissions
+grading.reminder.body=Please do not grade assignments with multiple browser windows or tabs. Grade assignments and navigate the system with only one browser window.
+grading.reminder.anon=Grading for this peer review is anonymous, so do not post your name in the reviewer comments section.
+grading.alert.draft.beforeclosedate=The Accept Until Date has not yet passed, and this assignment may still be worked on by the student. Are you sure you want to grade?
+grading.associate.disabled=(This option is not available unless the grading scale is "Points" and a point value has been assigned.)
+addtogradebook.nonUniqueTitle = The assignment {0} has been created but has not been associated with a new Gradebook item due to an existing item of the same name. Please edit the assignment title.
+addtogradebook.illegalPoints = The assignment could not be added to Gradebook. To add to Gradebook, edit the assignment and enter a value greater than zero for points.
+addtogradebook.titleInvalidCharacters =  The assignment {0} has been created but has not been associated with a new Gradebook item due to assignment name contain invalid characters for a Gradebook item: '*', '[', ']' or start with a '#'. Please edit the assignment title.
+addtogradebook.alertMessage = Exception while getting site gradebook, exception below:
+addtogradebook.previouslyAssoc = You are trying to associate this assignment with an already associated Gradebook item and scores might be overwritten. Do you want to continue?
+allowExtensionCaption =  - If this student has not submitted yet, you can set a custom extended due date for this student only. 
+exampleassign3 = You must be a member of one of the groups in order to submit this preview, and your submission here will count as a real submission for that group.
+alert.globalNavi	= If you choose to exit without clicking any of the assignment submission navigation action buttons at the top or bottom of this page, you will lose your work. Please choose one of these buttons or navigate to your chosen page and abandon your work on this page.
+restoreConfirmation = The selected assignments will be restored. Would you like to proceed?
+restoreWarning = <strong>Warning:</strong> when restoring an assignment with a Gradebook item, certain details such as the associated category, any Gradebook item comments, the extra credit setting, excused grades, and the grade log, cannot be restored. Please review the corresponding Gradebook item after restoring an assignment to configure any settings as necessary.
+hardRemoveConfirmation = The selected assignments will be permanently removed and cannot be recovered. Would you like to proceed?
+somelsis_assignment = Someone else is editing this assignment ''{0}''.
+
+somelsis_submission = Someone else is editing this submission ''{0}''.
+
+somelsis_assignmentContent = Someone else is editing this assignment content ''{0}''.
+
+somelsis_calendar = Someone else is editing this calendar.
+
+gen.can.discard   = Your changes will be discarded. Are you sure you want to cancel?
+
+
+
+
+
+
+
+
+
+
+
+
+Others
+
+areyousur_withSubmission = Are you sure you want to delete ''{0}'' which has submissions already?
+
+areyousur_multiple = Are you sure you want to delete these assignments?
+
+areyousur_single = Are you sure you want to delete this assignment?
+
+gen.can.discard   = Your changes will be discarded. Are you sure you want to cancel?
+
+restoreConfirmation = The selected assignments will be restored. Would you like to proceed?
+
+hardRemoveConfirmation = The selected assignments will be permanently removed and cannot be recovered. Would you like to proceed?
+
+gen.remove.q = Remove?
+
+addtogradebook.previouslyAssoc = You are trying to associate this assignment with an already associated Gradebook item and scores might be overwritten. Do you want to continue?
+
+grading.alert.draft.beforeclosedate=The Accept Until Date has not yet passed, and this assignment may still be worked on by the student. Are you sure you want to grade?
+
+
+
+acesubdea2 = Accept submissions deadline should be set after the due date.
+
+acesubdea3 = Accept submissions deadline should be set after the open date.
+
+acesubdea4 = Accept submissions deadline set to be in the past. Please make a correction or click on the original button again to proceed.
+
+acesubdea5 = Accept resubmissions deadline set to be in the past. Please make a correction or click on the original button again to proceed.
+
+acesubdea6 = Accept resubmissions deadline should be set after the open date.
+
+assig3 = Assignment due date should be set after the open date.
+
+assig4 = Assignment due date set to be in the past. Please make a correction or click on the original button again to proceed.
+
+assig5 = Edited Assignment: Open Date for ''{0}''
+
+assig6 = Assignment: Open Date for ''{0}''
+
+attaonly = Attachments only
+
+attempty = Can not submit empty attachments: ''{0}''.
+
+cannotfin1 = Can not add the due date to calendar.
+
+cannotfin_assignment = Can not find the assignment ''{0}''.
+
+cannotfin_assignmentContent = Can not find the assignment content ''{0}''.
+
+cannotfin3 = Can not find the assignment.
+
+cannotfin4 = Can not find the assignment content.
+
+cannotfin5 = Can not find the assignment submission.
+cannotfin_site = Can not find site with id = ''{0}''.
+cannotfin_submission = Can not find the assignment submission with id = ''{0}''.
+cannotfin_submission_1 = Can not find the assignment submission for assignment reference =''{0}'' and user id=''{1}''.
+
+cannotfin6 = Can not find the calendar event ''{0}''.
+
+cannot_getEvents = Can not read events for calendar ''{0}''.
+
+cannotmak = Can not make an announcement for the assignment open date.
+
+cannotrem = Can not remove the old event for assignment ''{0}''.
+
+gen.addatttoassiginstr = Add an item from your computer or select an existing item from Resources. Once you've made your selection, select 'Continue', or select 'Cancel' to return without making any changes. You will return your assignment - which you should then save.
+
+
+group.user.multiple.error  = At least one user is in more than one group.  Please see below.
+
+group.error.message        = You or one of your group members are members of more than one group eligible to submit to this assignment.  Please inform your instructor that you will not be able to submit or view feedback until this error is resolved.
+
+grad2 = Grade entered ''{0}'' is larger than the maximum grade allowed ''{1}''. Please make a correction or click the original button again to save the entered value ''{0}''.
+
+plespethe1 = Please specify the assignment title.
+
+plespethe2 = Please specify the grade.
+
+plespethe3 = Please specify the maximum points.
+
+plesuse0 = ''{0}'' is invalid. Please use correct grade string.
+
+plesuse1 = Please use a number for the grade field.
+
+plesuse2 = Please use only {0} decimal place(s) for the grade field.
+
+grading.alert.multiTab=Your grade, comments and feedback have not been saved. You will need to enter them again. You can only open one student submission at a time. If you open a second student's work before leaving the first student's submission, the first submission cannot be graded until you close all the submissions, and then open it. To avoid this problem, please do not open multiple browser-windows or tabs while you are grading. We recommend that you close and restart your browser, and then log back into the system, before continuing with your grading.
+
+
+plesuse3 = Please use a positive number or zero for the grade field.
+
+plesuse4 = {0} is greater than the maximum value allowed by the system. Please enter a value no greater than {1}.
+
+pleasee6 = Points must match assignments in the selected Gradebook category ({0})
+
+pleaseselectlti = Please select an External Tool
+
+stuviewsubm.plesub     = Please submit again with your changes.
+
+stuviewsubm.externaltool=This assignment launches an external tool that will provide a grade, please launch the tool below.
+
+thiasshas = This assignment has no instructions. Please make a correction or click the original button to proceed.
+
+viewassig.theassall5 = This assignment allows submissions using the text box below only. Please type in your submission and save frequently while working.
+
+restoreWarning = <strong>Warning:</strong> when restoring an assignment with a Gradebook item, certain details such as the associated category, any Gradebook item comments, the extra credit setting, excused grades, and the grade log, cannot be restored. Please review the corresponding Gradebook item after restoring an assignment to configure any settings as necessary.
+
+alert.globalNavi	= If you choose to exit without clicking any of the assignment submission navigation action buttons at the top or bottom of this page, you will lose your work. Please choose one of these buttons or navigate to your chosen page and abandon your work on this page.
+
+addtogradebook.nonUniqueTitle = The assignment {0} has been created but has not been associated with a new Gradebook item due to an existing item of the same name. Please edit the assignment title.
+
+addtogradebook.titleInvalidCharacters =  The assignment {0} has been created but has not been associated with a new Gradebook item due to assignment name contain invalid characters for a Gradebook item: '*', '[', ']' or start with a '#'. Please edit the assignment title.
+
+addtogradebook.nonUniqueTitle = The assignment {0} has been created but has not been associated with a new Gradebook item due to an existing item of the same name. Please edit the assignment title.
+
+addtogradebook.titleInvalidCharacters =  The assignment {0} has been created but has not been associated with a new Gradebook item due to assignment name contain invalid characters for a Gradebook item: '*', '[', ']' or start with a '#'. Please edit the assignment title.
+
+addtogradebook.previouslyAssoc = You are trying to associate this assignment with an already associated Gradebook item and scores might be overwritten. Do you want to continue?
+
+grading.alert.multiTab=Your grade, comments and feedback have not been saved. You will need to enter them again. You can only open one student submission at a time. If you open a second student's work before leaving the first student's submission, the first submission cannot be graded until you close all the submissions, and then open it. To avoid this problem, please do not open multiple browser-windows or tabs while you are grading. We recommend that you close and restart your browser, and then log back into the system, before continuing with your grading.
+
+grading.reminder.body=Please do not grade assignments with multiple browser windows or tabs. Grade assignments and navigate the system with only one browser window.
