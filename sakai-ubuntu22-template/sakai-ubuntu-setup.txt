@@ -14,3 +14,12 @@ sudo mysql -uroot -Bse  "create database sakaidb  default character set utf8; cr
 
 
 # install java 11
+
+# install maven
+
+# find java.home path
+java -XshowSettings:properties -version 2>&1 > /dev/null | grep 'java.home'
+
+# to find maven.home 
+mvn --version
+
