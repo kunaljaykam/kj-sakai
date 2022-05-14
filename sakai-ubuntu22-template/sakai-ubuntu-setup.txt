@@ -1,0 +1,16 @@
+# install maridb
+sudo apt-get update -y
+sudo apt-get install mariadb-server -y
+
+# setup mysql(unsecure)
+sudo service mysql start
+
+# create database(without password)
+sudo mysql -uroot -Bse  "create database sakaidb  default character set utf8; create user 'sakaiuser'@'localhost' identified by 'sakaipassword';grant all on *.* to 'sakaiuser'@'localhost';
+  create user 'sakaiuser'@'127.0.0.1' identified by 'sakaipassword';
+  grant all on *.* to 'sakaiuser'@'127.0.0.1';
+  flush privileges;
+"
+
+
+# install java 11
